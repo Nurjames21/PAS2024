@@ -1,0 +1,22 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PUNYA AZWAR</title>
+</head>
+
+<body id="warnabody">
+   <h3 style="color:blue;"> PROGRAM MENGHITUNG VOLUME BALOK<h3>
+    <script>
+        function volumebalok(panjang,lebar,tinggi) {
+        var volume = panjang*lebar*tinggi
+        alert(volume)
+      }
+    </script>
+
+<h3 style="color:red;"> Panjang :<input type="text" id="panjang"><br>
+<h3 style="color:red;"> Lebar:<input type="text" id="lebar"><br>
+<h3 style="color:red;"> Tinggi :<input type="text" id="tinggi"><br><br>
+  <button onclick="volumebalok(document.getElementById('panjang').value,document.getElementById('lebar').value,document.getElementById('tinggi').value)">Hitung Volume</button>
+</body>
+</html>
