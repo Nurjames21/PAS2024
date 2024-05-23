@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h3 style="color:blue;"> PROGRAM MENGHITUNG VOLUME BALOK</h3><br>
+    <script>
+        function volumebalok(panjang,lebar,tinggi) {
+  var volume =(panjang*lebar*tinggi)
+ alert(volume)
+
+
+}
+</script>
+<h3 style="color:red;">panjang <input typr="text" id="panjang"><br>
+ <h3 style="color:red;">lebar <input typr="text" id="lebar"><br>
+ <h3 style="color:red;">tinggi <input typr="text" id="tinggi"><br>
+
+    <button onclick="volumebalok(document.getElementById('panjang').value,document.getElementById('lebar').value,document.getElementById('tinggi').value)">Hitung Volume</button>
+
+</body>
+</html>
